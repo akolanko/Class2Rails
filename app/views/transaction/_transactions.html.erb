@@ -1,0 +1,11 @@
+<h3>TRANSACTION PARTIAL</h3>
+
+<% @transactions.each do |hash| %>
+	<% hash.each do |item| %>
+		<b><%= item[0] %></b>
+		<br>
+		<%= item[1] %>
+		<br>
+	<% end %>
+	<br>
+<%  end %>

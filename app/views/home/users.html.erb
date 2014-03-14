@@ -1,0 +1,17 @@
+<h1>ALL USERS</h1>
+
+<%= render "string", data: "This is a string being passed as data in a partial." %>
+
+<%= render "hash", my_hash: {title: "READ THIS", message: "This is an important message for you!"} %>
+
+<%= render "array", some_array: [2, "Lilac", "Fountain", 30] %>
+
+<%= link_to "Home", "/" %>
+<br>
+<%= link_to "My Profile", "/profile/:id" %>
+<br>
+<%= link_to "All Posts", "/posts" %>
+<br>
+<%= link_to "My Posts", "/posts/:id" %>
+<br>
+<%= link_to "Transactions", "/transactions" %>
